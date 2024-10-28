@@ -128,7 +128,7 @@ export default {
 					name: "Donald McIntyre",
 					title: "Senior Editor",
 					mail: "donald@etccooperative.org",
-					twitter: "ETCPOW",
+					twitter: "RocketETC",
 				},
 				{
 					img: "andrew-dick.png",
@@ -137,13 +137,7 @@ export default {
 					mail: "andrew@etccooperative.org",
 					
 				},
-				{
-					img: "angelah-liu.png",
-					name: "Angelah Liu",
-					title: "Communications Manager",
-					mail: "angelah@etccooperative.org",
-					twitter: "angelahliu_",
-				},
+				
 			],
 		};
 	},
