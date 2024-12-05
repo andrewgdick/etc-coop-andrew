@@ -33,10 +33,6 @@
 										<img src="@/assets/images/mail-icon-green.svg" alt="" />
 										{{ contact.mail }}
 									</a>
-									<a :href="`https://www.twitter.com/${contact.twitter}`">
-										<img src="@/assets/images/member-twitter.svg" alt="" />
-										@{{ contact.twitter }}
-									</a>
 								</div>
 							</div>
 						</div>
@@ -76,10 +72,6 @@
 								<img src="@/assets/images/contact-twitter.svg" alt="" />
 								@ETCCooperative
 							</a>
-							<a target="_blank" href="https://discord.gg/5wDyd6u6pU">
-								<img src="@/assets/images/contact-discord1.svg" alt="" />
-								ETC Cooperative Discord
-							</a>
 							<a
 								target="_blank"
 								href="https://www.linkedin.com/company/etc-cooperative/"
@@ -116,26 +108,16 @@ export default {
 		return {
 			contacts: [
 				{
-					img: "bob-summerwill.png",
-					name: "Bob Summerwill",
-					title: "Executive Director",
-					mail: "bob@etccooperative.org",
-					twitter: "bobsummerwill",
-				},
-			
-				{
-					img: "donald-mcintyre.png",
-					name: "Donald McIntyre",
-					title: "Senior Editor",
-					mail: "donald@etccooperative.org",
-					twitter: "RocketETC",
+					img: "alison-alexis.png",
+					name: "Alison Alexis",
+					title: "Financial Controller and Business Services",
+					mail: "alison@etccooperative.org"
 				},
 				{
 					img: "andrew-dick.png",
 					name: "Andrew Dick",
 					title: "Marketing Manager",
-					mail: "andrew@etccooperative.org",
-					
+					mail: "andrew@etccooperative.org"					
 				},
 				
 			],
